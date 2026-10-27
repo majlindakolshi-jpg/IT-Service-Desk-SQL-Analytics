@@ -8,13 +8,6 @@ Purpose:
   3) Be safe to re-run: generated InteractionIDs are protected
      with NOT EXISTS, so the 1,000 rows are not duplicated.
 ============================================================
-
-IMPORTANT:
-- Run this script against the SAME SQL Server database used by Power BI.
-- Do NOT re-run the original 10-ticket INSERT script after this.
-- No table/column is added, removed, renamed, or retyped.
-*/
-
 USE IT_ServiceDesk_DB;
 GO
 
